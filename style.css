@@ -386,7 +386,7 @@ text-align: center;
     font-weight: 600;
     cursor: pointer;
 }
-.footer{
+footer{
     display: flex;
 }
 
@@ -410,8 +410,56 @@ text-align: center;
     margin-bottom: 10px;
     color: gray;
     cursor: pointer;
+
 }
 
 .footerRight{
     flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
+
+.fInput{
+    padding: 5px;
+}
+
+.fButton{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.ficons{
+    display: flex;
+}
+
+.fIcon{
+ width: 20px;
+ height: 20px;
+ margin-right: 10px;
+}
+.copyright{
+    font-size: 300;
+    font-size: 14px;
+}
+ 
+@media screen and (max-width:480){
+    nav{
+        padding: 20px;
+    }
+    .search{
+        display: none;
+
+    }
+
+
+
+}
+
+
+
+
+
+
